@@ -1,0 +1,119 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello,",
+                "title_long": "I'm {{Armin Nataj}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 480
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Tehran, Iran",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "natajarmin@gmail.com",
+                    "link": {"href": "mailto:natajarmin@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "13Armin85",
+                    "link": {"href": "https://github.com/13Armin85", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "label": "Armin Nataj",
+                    "link": {"href": "https://linkedin.com/in/armin-nataj", "tooltipString": "open_website"},
+                    "faIcon": "fa-brands fa-linkedin"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {"en": {"title": "{{Professional}} summary"}},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#111827", "fill": "#60a5fa"},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a {{Full-Stack Developer}} with hands-on experience building and maintaining end-to-end web applications across <b>React.js and Next.js</b> frontends and <b>Node.js, Django/DRF, and C#/.NET</b> backends.</p><p>My work focuses on RESTful API development and integration, client-server data flow, responsive UI engineering, debugging, and performance optimization. I also work with <b>Microsoft SQL Server, IIS, Docker, Git, and Agile delivery</b>, with a strong focus on clean, maintainable code and reliable user experiences.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {"en": {"title": "What I {{deliver}}"}},
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61dafb"},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {"en": {"title": "Frontend Engineering", "text": "Responsive, mobile-first interfaces with React.js, Next.js, TypeScript, Tailwind CSS, and Redux."}}
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": "#a78bfa"},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {"en": {"title": "Backend & APIs", "text": "Maintainable services and RESTful APIs with .NET/C#, Node.js, Django, and Django REST Framework."}}
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-gauge-high",
+                    "faIconColors": {"bg": "", "fill": "#34d399"},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {"en": {"title": "Quality & Performance", "text": "Structured debugging, reusable components, performance optimization, and reliable client-server data flow."}}
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "", "fill": "#21759b"},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {"en": {"title": "WordPress & SEO", "text": "Custom themes and plugins, e-commerce and corporate sites, SEO, analytics, speed, and maintainability."}}
+                }
+            ]
+        }
+    ]
+}

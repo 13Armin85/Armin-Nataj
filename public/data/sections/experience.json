@@ -1,0 +1,151 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "My professional",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "#111827", "fill": "#60a5fa"},
+                    "dateStart": {"year": 2025, "month": 5},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack Developer}}",
+                            "province": "Amol",
+                            "country": "Iran",
+                            "institution": "Amard",
+                            "text": "Develop and maintain React.js and Next.js interfaces alongside C#/.NET backend services and RESTful APIs.",
+                            "list": [
+                                "Troubleshoot client-server data flow, API integration, and application defects across the full stack.",
+                                "Refactor reusable components and responsive layouts to improve performance and cross-device consistency."
+                            ],
+                            "tags": ["React.js", "Next.js", "C#", ".NET", "REST APIs"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code-branch",
+                    "faIconColors": {"bg": "#111827", "fill": "#a78bfa"},
+                    "dateStart": {"year": 2025, "month": 5},
+                    "dateEnd": {"year": 2025, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack Developer}}",
+                            "province": "Tehran",
+                            "country": "Iran",
+                            "institution": "Parand Tech Group",
+                            "text": "Built and maintained responsive web features integrated with backend services and APIs.",
+                            "list": [
+                                "Resolved cross-browser rendering and client-server integration issues using JavaScript, Flexbox, Grid, and Media Queries.",
+                                "Optimized application interfaces to maintain stable performance during continuous product updates."
+                            ],
+                            "tags": ["JavaScript", "Responsive Design", "APIs", "Performance"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "#111827", "fill": "#34d399"},
+                    "dateStart": {"year": 2024, "month": 12},
+                    "dateEnd": {"year": 2025, "month": 5},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack Developer}}",
+                            "province": "Tehran",
+                            "country": "Iran",
+                            "institution": "ISIRAN",
+                            "text": "Connected React applications to Node.js services by building, consuming, and validating RESTful API workflows.",
+                            "list": [
+                                "Improved server-side logic and clarified data flow between frontend components and backend services.",
+                                "Reduced maintenance overhead through reusable components and structured full-stack debugging practices."
+                            ],
+                            "tags": ["React.js", "Node.js", "REST APIs", "Debugging"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": {"bg": "#111827", "fill": "#f59e0b"},
+                    "dateStart": {"year": 2024, "month": 9},
+                    "dateEnd": {"year": 2025, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack Developer}}",
+                            "province": "Tehran",
+                            "country": "Iran",
+                            "institution": "Iran Fava Gostaresh",
+                            "text": "Implemented complex business logic in React.js and Next.js and integrated it with backend REST APIs.",
+                            "list": [
+                                "Collaborated across the stack to ensure accurate, timely data exchange between services and user interfaces.",
+                                "Diagnosed performance bottlenecks and improved page-load speed and application reliability."
+                            ],
+                            "tags": ["React.js", "Next.js", "REST APIs", "Optimization"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "dateStart": {"year": 2024, "month": 6},
+                    "dateEnd": {"year": 2024, "month": 11},
+                    "locales": {
+                        "en": {
+                            "title": "{{WordPress Developer}}",
+                            "province": "Tehran",
+                            "country": "Iran",
+                            "institution": "Iranian Etemad",
+                            "text": "Delivered custom WordPress themes and plugins for e-commerce and corporate websites.",
+                            "list": ["Improved SEO, site speed, reliability, and ongoing maintainability across multiple client projects."],
+                            "tags": ["WordPress", "Themes", "Plugins", "SEO", "Performance"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-terminal",
+                    "faIconColors": {"bg": "#111827", "fill": "#94a3b8"},
+                    "dateStart": {"year": 2022, "month": 7},
+                    "dateEnd": {"year": 2023, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Programming Intern}}",
+                            "province": "Amol",
+                            "country": "Iran",
+                            "institution": "Amard",
+                            "text": "Built small desktop applications and strengthened foundations in OOP, debugging, clean code, and the SDLC.",
+                            "list": [],
+                            "tags": ["OOP", "Debugging", "Clean Code", "SDLC"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

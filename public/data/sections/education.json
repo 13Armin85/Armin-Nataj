@@ -1,0 +1,63 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "My academic",
+                "title_long": "{{Education}} Background"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "#111827", "fill": "#60a5fa"},
+                    "dateStart": {"year": 2024, "month": null},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor of {{Electrical Engineering}}",
+                            "province": "Tehran",
+                            "country": "Iran",
+                            "institution": "Islamic Azad University, Central Tehran Branch",
+                            "text": "Currently pursuing a bachelor's degree in Electrical Engineering.",
+                            "list": [],
+                            "tags": ["Electrical Engineering"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-school",
+                    "faIconColors": {"bg": "#111827", "fill": "#a78bfa"},
+                    "dateStart": {"year": 2020, "month": null},
+                    "dateEnd": {"year": 2023, "month": null},
+                    "locales": {
+                        "en": {
+                            "title": "Diploma in {{Mathematics & Physics}}",
+                            "province": "Tehran",
+                            "country": "Iran",
+                            "institution": "Tehran",
+                            "text": "Secondary education diploma focused on Mathematics and Physics.",
+                            "list": [],
+                            "tags": ["Mathematics", "Physics"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

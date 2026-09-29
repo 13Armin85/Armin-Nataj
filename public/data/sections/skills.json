@@ -1,0 +1,102 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore my",
+                "title_long": "Technical {{Skill Set}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {"en": {"title": "Frontend"}},
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 8,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": false
+            },
+            "items": [
+                {"id": 1, "img": "", "faIcon": "fa-brands fa-react", "faIconColors": {"bg": "", "fill": "#61dafb"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "React.js", "text": "Component-based user interfaces and reusable frontend architecture.", "level": ""}}},
+                {"id": 2, "img": "", "faIcon": "fa-solid fa-n", "faIconColors": {"bg": "", "fill": "#ffffff"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Next.js", "text": "Modern production-ready React applications.", "level": ""}}},
+                {"id": 3, "img": "", "faIcon": "fa-brands fa-js", "faIconColors": {"bg": "", "fill": "#f7df1e"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "JavaScript ES6+", "text": "Interactive web application development.", "level": ""}}},
+                {"id": 4, "img": "", "faIcon": "fa-solid fa-code", "faIconColors": {"bg": "", "fill": "#3178c6"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "TypeScript", "text": "Type-safe application development and maintainable codebases.", "level": ""}}},
+                {"id": 5, "img": "", "faIcon": "fa-solid fa-wind", "faIconColors": {"bg": "", "fill": "#38bdf8"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Tailwind CSS", "text": "Responsive and mobile-first interface styling.", "level": ""}}},
+                {"id": 6, "img": "", "faIcon": "fa-solid fa-layer-group", "faIconColors": {"bg": "", "fill": "#764abc"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Redux", "text": "Predictable client-side state management.", "level": ""}}},
+                {"id": 7, "img": "", "faIcon": "fa-brands fa-html5", "faIconColors": {"bg": "", "fill": "#e34f26"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "HTML5 & CSS3", "text": "Semantic markup, Flexbox, Grid, and media queries.", "level": ""}}}
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {"en": {"title": "Backend & APIs"}},
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 8,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": false
+            },
+            "items": [
+                {"id": 1, "img": "", "faIcon": "fa-brands fa-microsoft", "faIconColors": {"bg": "", "fill": "#512bd4"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": ".NET / C#", "text": "Backend services and business application development.", "level": ""}}},
+                {"id": 2, "img": "", "faIcon": "fa-brands fa-node-js", "faIconColors": {"bg": "", "fill": "#68a063"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Node.js", "text": "Server-side JavaScript services and integrations.", "level": ""}}},
+                {"id": 3, "img": "", "faIcon": "fa-brands fa-python", "faIconColors": {"bg": "", "fill": "#3776ab"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Python & Django", "text": "Web backends with Django and Django REST Framework.", "level": ""}}},
+                {"id": 4, "img": "", "faIcon": "fa-solid fa-plug", "faIconColors": {"bg": "", "fill": "#34d399"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "RESTful APIs", "text": "API development, integration, validation, and client-server data flow.", "level": ""}}},
+                {"id": 5, "img": "", "faIcon": "fa-brands fa-wordpress", "faIconColors": {"bg": "", "fill": "#21759b"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "WordPress", "text": "Custom themes, plugins, e-commerce, and corporate websites.", "level": ""}}}
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {"en": {"title": "Data, Infrastructure & Delivery"}},
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 8,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": false
+            },
+            "items": [
+                {"id": 1, "img": "", "faIcon": "fa-solid fa-database", "faIconColors": {"bg": "", "fill": "#cc2927"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "SQL & SQL Server", "text": "Relational data and Microsoft SQL Server.", "level": ""}}},
+                {"id": 2, "img": "", "faIcon": "fa-solid fa-server", "faIconColors": {"bg": "", "fill": "#60a5fa"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "IIS", "text": "Hosting and deployment in Microsoft environments.", "level": ""}}},
+                {"id": 3, "img": "", "faIcon": "fa-brands fa-docker", "faIconColors": {"bg": "", "fill": "#2496ed"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Docker", "text": "Containerized development and delivery workflows.", "level": ""}}},
+                {"id": 4, "img": "", "faIcon": "fa-brands fa-git-alt", "faIconColors": {"bg": "", "fill": "#f05032"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Git & Azure DevOps", "text": "Version control and team delivery with Git and TFS/Azure DevOps.", "level": ""}}},
+                {"id": 5, "img": "", "faIcon": "fa-solid fa-list-check", "faIconColors": {"bg": "", "fill": "#2684ff"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Jira & Agile", "text": "Collaborative Agile planning and delivery.", "level": ""}}},
+                {"id": 6, "img": "", "faIcon": "fa-brands fa-figma", "faIconColors": {"bg": "", "fill": "#f24e1e"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Figma & Photoshop", "text": "Design collaboration and visual asset preparation.", "level": ""}}},
+                {"id": 7, "img": "", "faIcon": "fa-solid fa-chart-line", "faIconColors": {"bg": "", "fill": "#f9ab00"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "SEO & Analytics", "text": "SEO optimization, Google Search Console, and Google Analytics.", "level": ""}}}
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {"en": {"title": "Languages"}},
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {"id": 1, "img": "", "faIcon": "fa-solid fa-language", "faIconColors": {"bg": "", "fill": "#34d399"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "Persian", "text": "Native proficiency.", "level": "Native"}}},
+                {"id": 2, "img": "", "faIcon": "fa-solid fa-language", "faIconColors": {"bg": "", "fill": "#60a5fa"}, "date": {"year": null, "month": null}, "percentage": null, "locales": {"en": {"title": "English", "text": "Advanced written and spoken proficiency.", "level": "Advanced"}}}
+            ]
+        },
+        {
+            "id": 5,
+            "component": "ArticleInfoList",
+            "settings": {"order_items_by": "id", "order_items_sort": "asc"},
+            "locales": {"en": {"title": "Professional {{strengths}}"}},
+            "items": [
+                {"id": 1, "faIcon": "fa-solid fa-lightbulb", "faIconColors": {"bg": "", "fill": "#fbbf24"}, "label": null, "link": {"href": null, "tooltipString": null}, "copyToClipboardButton": false, "locales": {"en": {"title": "Problem Solving", "text": "Analytical thinking and structured debugging."}}},
+                {"id": 2, "faIcon": "fa-solid fa-people-group", "faIconColors": {"bg": "", "fill": "#a78bfa"}, "label": null, "link": {"href": null, "tooltipString": null}, "copyToClipboardButton": false, "locales": {"en": {"title": "Collaboration", "text": "Team collaboration, Agile workflow, and effective communication."}}},
+                {"id": 3, "faIcon": "fa-solid fa-arrows-rotate", "faIconColors": {"bg": "", "fill": "#34d399"}, "label": null, "link": {"href": null, "tooltipString": null}, "copyToClipboardButton": false, "locales": {"en": {"title": "Continuous Learning", "text": "Adaptability, continuous learning, and time management."}}}
+            ]
+        }
+    ]
+}

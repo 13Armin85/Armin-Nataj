@@ -1,0 +1,184 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Selected",
+                "title_long": "{{Projects}} & Websites"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Applications",
+                    "category_portfolio": "Portfolio",
+                    "category_wordpress": "WordPress"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_portfolio", "category_wordpress"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-solid fa-city",
+                    "faIconColors": {"bg": "#111827", "fill": "#60a5fa"},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "Municipality Management System", "text": "Online platform with property registration, inquiry, and administrative workflow modules.", "tags": ["Full-Stack", "Administrative Workflows", "Web Application"]}}
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-solid fa-cart-shopping",
+                    "faIconColors": {"bg": "#111827", "fill": "#a78bfa"},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "Shop", "text": "E-commerce storefront built with Next.js and TypeScript, including product listing and checkout flow.", "tags": ["Next.js", "TypeScript", "E-commerce"]}}
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-solid fa-users-gear",
+                    "faIconColors": {"bg": "#111827", "fill": "#34d399"},
+                    "preview": {"links": [], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "Member Management App", "text": "TypeScript application for managing member records and profiles.", "tags": ["TypeScript", "Records Management", "Web Application"]}}
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_portfolio",
+                    "img": "",
+                    "faIcon": "fa-solid fa-id-card",
+                    "faIconColors": {"bg": "#111827", "fill": "#f59e0b"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://arminnataj.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"},
+                            {"href": "https://github.com/13Armin85", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {"en": {"title": "Personal Portfolio", "text": "React and TypeScript portfolio showcasing projects, technical skills, and professional experience.", "tags": ["React", "TypeScript", "Portfolio"]}}
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://berkehketab.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "berkehketab.ir", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://iranianetemad.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "iranianetemad.ir", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://negahhospital.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "negahhospital.com", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://amardco.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "amardco.com", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://raeesiedu.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "raeesiedu.com", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://19-16.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "19-16.ir", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://ninielma.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "ninielma.com", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://stpilates.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "stpilates.ir", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://goldaneh.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "goldaneh.ir", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://paionco.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "paionco.ir", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://teknololeh.ir", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "teknololeh.ir", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                },
+                {
+                    "id": 16,
+                    "categoryId": "category_wordpress",
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "#111827", "fill": "#38bdf8"},
+                    "preview": {"links": [{"href": "https://zarabannoor.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-arrow-up-right-from-square"}], "screenshots": [], "screenshotsAspectRatio": ""},
+                    "locales": {"en": {"title": "zarabannoor.com", "text": "Selected WordPress project delivered as part of my professional website portfolio.", "tags": ["WordPress", "Web Development"]}}
+                }
+            ]
+        }
+    ]
+}

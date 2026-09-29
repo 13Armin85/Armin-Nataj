@@ -1,0 +1,24 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {"en": {"title": "Home"}}
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {"en": {"title": "Background"}}
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {"en": {"title": "Showcase"}}
+        },
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-paper-plane",
+            "locales": {"en": {"title": "Contact"}}
+        }
+    ]
+}

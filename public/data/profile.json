@@ -1,0 +1,23 @@
+{
+    "name": "Armin Nataj",
+    "profilePictureUrl": "images/Armin.png",
+    "resumePdfUrl": "documents/Armin_Nataj_Full_Stack_Resume.pdf",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+    "locales": {
+        "en": {
+            "localized_name": "Armin Nataj",
+            "localized_name_stylized": "[[Armin {{Nataj}}]]",
+            "status_message_available_for_freelance": "Available for full-stack opportunities",
+            "roles": [
+                "Full-Stack Developer",
+                "React.js & Next.js Developer",
+                "TypeScript Developer",
+                "Node.js & Django Developer",
+                ".NET Developer",
+                "WordPress Developer"
+            ]
+        }
+    }
+}

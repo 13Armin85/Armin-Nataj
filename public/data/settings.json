@@ -1,0 +1,57 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "2.0.3"
+    },
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "<strong>Portfolio</strong>",
+        "subtitle": "Armin Nataj",
+        "logoOffset": {"right": 14, "top": 2, "bottom": 0}
+    },
+    "templateSettings": {
+        "animatedCursorEnabled": true,
+        "backgroundStyle": "animated",
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": true
+    },
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en"
+        }
+    ],
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {"en": {"name": "Dark Mode"}}
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {"en": {"name": "Light Mode"}}
+        }
+    ],
+    "consoleMessageForDevelopers": {
+        "title": "Armin Nataj — Full-Stack Developer",
+        "items": [
+            {
+                "description": "Portfolio source and developer profile:",
+                "list": [
+                    "Website: https://arminnataj.ir",
+                    "GitHub: https://github.com/13Armin85",
+                    "LinkedIn: https://linkedin.com/in/armin-nataj"
+                ],
+                "listStyle": "bulleted"
+            }
+        ]
+    },
+    "imagesToCache": ["images/Armin.png", "images/armin_logo_simple.svg"]
+}
